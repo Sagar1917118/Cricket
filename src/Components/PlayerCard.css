@@ -1,0 +1,131 @@
+/* PlayerCard.css */
+.card {
+    transform-style: preserve-3d; /* Enables 3D transformations */
+  transition: transform 0.6s; /* Smooth transition for the rotation */
+  border-radius:15px;
+  }
+  .card-container{
+    position: relative;
+    width: 350px;
+    border-radius:15px;
+  }
+  .card-container:hover .card {
+    transform: rotateY(360deg); /* Rotates 360 degrees on the X-axis */
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+  }
+  
+  .player-details {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .back{
+    display:none;
+ }
+ .card-container:hover .back {
+    display:flex;
+    transform: rotateY(360deg); /* Rotates 360 degrees on the X-axis */
+  }
+  .card-container:hover .front {
+    display:none;
+    transform: rotateY(360deg); /* Rotates 360 degrees on the X-axis */
+  }
+  
+  .player-image {
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .player-info h2 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #333;
+  }
+  
+  .player-info p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .stats span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color:black;
+    font-weight:bold;
+  }
+  /* Test Ranking styles */
+.player-card-back-test {
+    background-color: #e3f2fd; /* Light blue background for Test */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .player-card-back-test h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #1565c0;
+  }
+  
+  .player-card-back-test p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  .player-card-back-odi {
+    background-color: #fff3e0; /* Light orange background for ODI */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .player-card-back-odi h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ef6c00;
+  }
+  
+  .player-card-back-odi p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  /* T20 Ranking styles */
+  .player-card-back-t20 {
+    background-color: #fce4ec; /* Light pink background for T20 */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .player-card-back-t20 h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #d81b60;
+  }
+  
+  .player-card-back-t20 p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  .sub-div-player-back{
+    display:flex;
+    gap:10px;
+  }

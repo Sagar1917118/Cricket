@@ -2,10 +2,5 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  background-color:green;
-}
-.landing_page{
-  width:100vw;
-  height:200px;
-  background-color:red;
+  position:relative;
 }

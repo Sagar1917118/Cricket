@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cricket Ball
+* source:	https://sketchfab.com/3d-models/cricket-ball-ee9d39c24a814c1da0aa80720501f970
+* author:	vidhanchalke10 (https://sketchfab.com/vidhanchalke10)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cricket Ball" (https://sketchfab.com/3d-models/cricket-ball-ee9d39c24a814c1da0aa80720501f970) by vidhanchalke10 (https://sketchfab.com/vidhanchalke10) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

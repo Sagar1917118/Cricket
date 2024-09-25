@@ -1,0 +1,9 @@
+.landing_page{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:400px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
